@@ -8,8 +8,6 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'bling/vim-airline'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'MarcWeber/vim-addon-local-vimrc'
-" Plugin 'scrooloose/nerdtree'
-" Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'kien/ctrlp.vim'
 
 call vundle#end()
@@ -34,4 +32,3 @@ set colorcolumn=80
 if has('mouse')
     set mouse=a
 endif
-set makeprg=cd\ $HOME/projects/oryol;./oryol\ make 
