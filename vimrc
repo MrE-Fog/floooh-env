@@ -15,7 +15,11 @@ filetype plugin indent on
 
 syntax enable
 set background=dark
-colorscheme solarized
+if has('gui_running')
+    colorscheme solarized
+else
+    colorscheme desert
+endif
 
 set number
 set tabstop=4
