@@ -1,7 +1,14 @@
 set nocompatible
-set shell=/bin/bash     " this is necessary if using a different shell on OSX
+if !has("win32")
+	set shell=/bin/bash     " this is necessary if using a different shell on OSX
+endif
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
+if has("win32")
+	set rtp+=~/vimfiles/bundle/Vundle.vim/
+	let path='~/vimfiles/bundle'
+else
+	set rtp+=~/.vim/bundle/Vundle.vim
+endif
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
