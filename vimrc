@@ -1,9 +1,9 @@
 set nocompatible
-if !has("win32")
+if !has('win32')
     set shell=/bin/bash     " this is necessary if using a different shell on OSX
 endif
 filetype off
-if has("win32")
+if has('win32')
     set rtp+=~/vimfiles/bundle/Vundle.vim/
     let path='~/vimfiles/bundle'
 else
@@ -27,6 +27,10 @@ if has('gui_running')
     colorscheme solarized
 else
     colorscheme desert
+endif
+
+if has('gui_win32')
+    set guifont=Consolas:h11:cANSI
 endif
 
 set number
