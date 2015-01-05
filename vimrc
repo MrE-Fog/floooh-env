@@ -1,13 +1,13 @@
 set nocompatible
 if !has("win32")
-	set shell=/bin/bash     " this is necessary if using a different shell on OSX
+    set shell=/bin/bash     " this is necessary if using a different shell on OSX
 endif
 filetype off
 if has("win32")
-	set rtp+=~/vimfiles/bundle/Vundle.vim/
-	let path='~/vimfiles/bundle'
+    set rtp+=~/vimfiles/bundle/Vundle.vim/
+    let path='~/vimfiles/bundle'
 else
-	set rtp+=~/.vim/bundle/Vundle.vim
+    set rtp+=~/.vim/bundle/Vundle.vim
 endif
 call vundle#begin()
 
