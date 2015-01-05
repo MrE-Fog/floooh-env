@@ -33,6 +33,8 @@ endif
 
 if has('gui_win32')
     set guifont=Consolas:h11:cANSI
+    set guioptions-=m   " remove menu bar
+    set guioptions-=T   " remove toolbar
 endif
 
 set number
