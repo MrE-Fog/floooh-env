@@ -16,7 +16,9 @@ Plugin 'bling/vim-airline'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'MarcWeber/vim-addon-local-vimrc'
 Plugin 'kien/ctrlp.vim'
-Plugin 'shime/vim-livedown'
+if !has('win32')
+    Plugin 'shime/vim-livedown'
+endif
 
 call vundle#end()
 filetype plugin indent on
