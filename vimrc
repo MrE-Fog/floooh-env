@@ -29,6 +29,7 @@ if has('gui_running')
     colorscheme solarized
 else
     colorscheme desert
+    highlight ColorColumn ctermbg=5
 endif
 
 if has('gui_win32')
