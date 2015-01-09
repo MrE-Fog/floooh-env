@@ -57,5 +57,6 @@ endif
 let g:livedown_autorun = 1
 let g:livedown_open = 1
 let g:livedown_port = 1337
-map gm :call LivedownPreview()<CR>
+map gm :call LivedownPreview()
+
 
