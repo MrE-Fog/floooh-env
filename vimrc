@@ -34,7 +34,6 @@ endif
 
 if has('gui_win32')
     set guifont=Consolas:h11:cANSI
-    set guioptions-=m   " remove menu bar
     set guioptions-=T   " remove toolbar
 endif
 
@@ -54,7 +53,6 @@ if has('mouse')
     set mouse=a
 endif
 
-let g:livedown_autorun = 1
 let g:livedown_open = 1
 let g:livedown_port = 1337
 map gm :call LivedownPreview()
