@@ -28,7 +28,7 @@ set background=dark
 if has('gui_running')
     colorscheme solarized
 else
-    colorscheme desert
+    colorscheme solarized 
     highlight ColorColumn ctermbg=5
 endif
 
