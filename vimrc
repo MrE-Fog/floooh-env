@@ -27,6 +27,7 @@ syntax enable
 set background=dark
 if has('gui_running')
     colorscheme solarized
+    set guioptions-=T   " removes toolbar in GUI vims
 else
     colorscheme solarized 
     highlight ColorColumn ctermbg=5
@@ -34,7 +35,6 @@ endif
 
 if has('gui_win32')
     set guifont=Consolas:h11:cANSI
-    set guioptions-=T   " remove toolbar
 endif
 
 set number
