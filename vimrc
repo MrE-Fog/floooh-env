@@ -16,9 +16,6 @@ Plugin 'bling/vim-airline'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'MarcWeber/vim-addon-local-vimrc'
 Plugin 'kien/ctrlp.vim'
-if !has('win32')
-    Plugin 'shime/vim-livedown'
-endif
 
 call vundle#end()
 filetype plugin indent on
@@ -52,9 +49,5 @@ set colorcolumn=80
 if has('mouse')
     set mouse=a
 endif
-
-let g:livedown_open = 1
-let g:livedown_port = 1337
-map gm :call LivedownPreview()
 
 
