@@ -28,7 +28,7 @@ if has('gui_running')
     set guioptions-=T   " removes toolbar in GUI vims
 else
     colorscheme solarized 
-    highlight ColorColumn ctermbg=5
+    highlight ColorColumn ctermbg=4
 endif
 
 if has('gui_win32')
