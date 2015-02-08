@@ -17,6 +17,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'MarcWeber/vim-addon-local-vimrc'
 Plugin 'kien/ctrlp.vim'
 Plugin 'mh21/errormarker.vim'
+Plugin 'gilligan/vim-lldb'
 
 call vundle#end()
 filetype plugin indent on
@@ -28,7 +29,7 @@ if has('gui_running')
     set guioptions-=T   " removes toolbar in GUI vims
 else
     colorscheme solarized 
-    highlight ColorColumn ctermbg=4
+    highlight ColorColumn ctermbg=11
 endif
 
 if has('gui_win32')
