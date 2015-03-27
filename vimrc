@@ -11,6 +11,13 @@ else
 endif
 call vundle#begin()
 
+" make sure we're running in english
+set langmenu=en_US
+let $LANG = 'en_US'
+source $VIMRUNTIME/delmenu.vim
+source $VIMRUNTIME/menu.vim
+
+
 Plugin 'gmarik/Vundle.vim'
 Plugin 'vim-scripts/a.vim'
 Plugin 'bling/vim-airline'
