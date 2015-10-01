@@ -25,7 +25,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'MarcWeber/vim-addon-local-vimrc'
 Plugin 'kien/ctrlp.vim'
 Plugin 'mh21/errormarker.vim'
-" Plugin 'gilligan/vim-lldb'
+Plugin 'rust-lang/rust.vim'
 
 call vundle#end()
 filetype plugin indent on
