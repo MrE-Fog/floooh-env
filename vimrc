@@ -59,5 +59,7 @@ set colorcolumn=80
 if has('mouse')
     set mouse=a
 endif
-
+set wildmenu
+set incsearch
+set hlsearch
 
