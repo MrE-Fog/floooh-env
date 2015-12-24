@@ -1,0 +1,7 @@
+# mkdir -p ~/.cgdb
+# ln -s ~/.floooh-env/cgdbrc ~/.cgdb/cgdbrc
+
+:set showtgdbcommands
+:set tabstop=4
+:set winsplit=top_big
+
