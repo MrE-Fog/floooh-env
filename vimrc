@@ -25,6 +25,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'MarcWeber/vim-addon-local-vimrc'
 Plugin 'kien/ctrlp.vim'
 Plugin 'mh21/errormarker.vim'
+Plugin 'scrooloose/syntastic'
 Plugin 'rust-lang/rust.vim'
 
 call vundle#end()
@@ -60,4 +61,13 @@ if has('mouse')
     set mouse=a
 endif
 set wildmenu
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 1
 
