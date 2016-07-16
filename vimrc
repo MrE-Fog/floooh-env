@@ -56,7 +56,7 @@ set autoindent
 set backspace=indent,eol,start
 set ruler
 set showcmd
-set colorcolumn=80
+set colorcolumn=120
 if has('mouse')
     set mouse=a
 endif
