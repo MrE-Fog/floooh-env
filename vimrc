@@ -34,10 +34,10 @@ filetype plugin indent on
 syntax enable
 set background=dark
 if has('gui_running')
-    colorscheme solarized
+    colorscheme desert
     set guioptions-=T   " removes toolbar in GUI vims
 else
-    colorscheme solarized 
+    colorscheme desert
     highlight ColorColumn ctermbg=11
 endif
 
